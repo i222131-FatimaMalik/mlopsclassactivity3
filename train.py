@@ -3,7 +3,7 @@ import pickle
 import argparse
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-
+# Load preprocessed data
 parser = argparse.ArgumentParser()
 parser.add_argument('--version', type=str, required=True)
 args = parser.parse_args()
